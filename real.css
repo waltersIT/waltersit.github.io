@@ -1,8 +1,9 @@
 :root {
-    --main-bg-color: #97c7c5;
-    --header-bg-color: #8f8f8f;
+    --main-bg-color: #ffffff;
+    --header-bg-color: #20377a;
     --category-bg-color: #FFFFFF;
-    --text-color: #333333;
+    --header-text-color: #c7c7c7;
+    --text-color: #353535;
     --header-height: 60px;
     --main-font: 'Open Sans', sans-serif;
 }
@@ -162,13 +163,13 @@ body, html {
 .logo {
     font-size: 40px;
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: var(--header-text-color);
     padding-right: 5px;
     /*padding-top: 5px;*/
 }
 
 .logo a {
-    color: rgb(0, 0, 0); /* Ensures the link is white */
+    color: var(--header-text-color);
     text-decoration: none; /* Removes underline from links */
     transition: color 0.3s ease; /* Smooth color transition for hover effect */
 }
@@ -194,7 +195,7 @@ body, html {
 
 .navigation a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: var(--header-text-color);
     font-size: 16px;
     padding: 5px 10px;
     border-radius: 5px;
