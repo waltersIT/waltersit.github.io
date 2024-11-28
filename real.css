@@ -143,6 +143,7 @@ body, html {
 .header {
     background-color: var(--header-bg-color);
     display: flex;
+    position: sticky;
     /*justify-content: space-between;*/
     align-items: center;
     padding: 0 20px;
