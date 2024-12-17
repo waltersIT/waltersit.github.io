@@ -345,6 +345,18 @@ nav input{
   justify-content: center;
   align-items: center;
 }
+#map {
+  display: flex;
+  float: right;
+  width: 860px;
+  height: 400px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: rgb(167, 167, 167);
+  /**margin-top: 40px; /**why the boxes arent centered w the parent container**/
+  justify-content: center;
+  align-items: center;
+}
 .photo-box-right img {
   width: 100%; /* Make the image stretch horizontally */
   height: 100%; /* Make the image stretch vertically */
