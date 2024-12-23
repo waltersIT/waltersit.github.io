@@ -384,7 +384,7 @@ nav input{
   height: 400px;
   margin-left: 30px;
   margin-right: 30px;
-  background-color: rgb(167, 167, 167);
+  background-color: rgb(255, 255, 255);
   /**margin-top: 40px; /**why the boxes arent centered w the parent container**/
   justify-content: center;
   align-items: center;
@@ -394,6 +394,9 @@ nav input{
   width: 100%; /* Make the image stretch horizontally */
   height: 100%; /* Make the image stretch vertically */
   object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the div */
+}
+.photo-box-right h2 {
+  padding: 30px;
 }
 .index-spacer {
   padding-bottom: 70px;
