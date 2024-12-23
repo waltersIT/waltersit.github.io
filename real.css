@@ -1,5 +1,7 @@
 body {
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -291,19 +293,26 @@ nav input{
   text-align: center;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
-
+  color: var(--header-text-color);
+  flex-direction: column;
 }
 .left-box p{
   display: flex;
   /**float: right;**/
   /**padding: 20px;**/
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 .left-box img {
   padding: 20px;
 }
+.left-box h1 {
+  font-size: 50px;
+
+}
 .left-box h2 {
   font-size: 25px;
-  padding-right: 30px;
+  padding-bottom: 20px;
 }
 .left-box li {
   padding: 10px;
@@ -386,11 +395,19 @@ nav input{
   height: 100%; /* Make the image stretch vertically */
   object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the div */
 }
-
-.spacer {
+.index-spacer {
   padding-bottom: 70px;
 }
-
+.spacer {
+  padding-bottom: 40px;
+}
+.line {
+  border-top: 1px solid var(--header-text-color);
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: -30px;
+}
 .top-spacer {
   margin-bottom: 70px;
 }
@@ -481,7 +498,7 @@ nav input{
   z-index: 1;
 }
 :root {
-  --header-color: rgb(251, 251, 251);
+  --header-color: rgb(233, 233, 233);
   --header-text-color: rgb(56, 56, 56);
   --header-hover-color: rgb(190, 190, 190);
 }
