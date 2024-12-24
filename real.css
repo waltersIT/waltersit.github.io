@@ -435,6 +435,7 @@ nav input{
   align-items: center;
   background-color: var(--header-color);
   /**border-bottom: 2px solid rgb(131, 131, 131);**/
+  color: var(--header-text-color)
 }
 
 
