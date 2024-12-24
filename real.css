@@ -501,7 +501,7 @@ nav input{
   z-index: 1;
 }
 :root {
-  --header-color: rgb(71, 6, 87);
-  --header-text-color: rgb(228, 228, 228);
+  --header-color: rgb(44, 50, 129);
+  --header-text-color: rgb(130, 130, 130);
   --header-hover-color: rgb(190, 190, 190);
 }
