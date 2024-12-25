@@ -285,7 +285,7 @@ nav input{
   height: 200px;
   margin-right: 30px;
   margin-left: 30px;
-  padding: 30px;
+  padding: 80px;
   /**margin-top: 10px; /**why the boxes arent centered w the parent container**/
   background-color: var(--color-box);
   justify-content: center;
@@ -510,7 +510,7 @@ nav input{
   --text-color: rgb(87, 87, 87);
   --header-hover-color: rgb(0, 112, 150);
   --background-color: rgb(245, 245, 220);
-  --box-color: rgb(245, 245, 220);
+  --box-color: rgb(52, 179, 151);
   --left-color: rgb(0, 0, 0);
   --left-background-color: rgb(173, 48, 48);
 }
@@ -545,5 +545,7 @@ nav input{
 
 .color-box {
   background-color: var(--box-color);
-  padding-bottom: 20px;
+  margin: 80px;
+  padding: 20px;
+
 }
