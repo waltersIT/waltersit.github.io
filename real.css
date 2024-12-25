@@ -287,13 +287,13 @@ nav input{
   margin-left: 30px;
   padding: 30px;
   /**margin-top: 10px; /**why the boxes arent centered w the parent container**/
-  background-color: var(--background-color);
+  background-color: var(--left-background-color);
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
-  color: var(--text-color);
+  color: var(--left-color);
   flex-direction: column;
 }
 .left-box p{
@@ -508,6 +508,8 @@ nav input{
   --header-hover-color: rgb(190, 190, 190);
   --background-color: rgb(255, 255, 255);
   --box-color: rgb(0, 0, 0);
+  --left-color: rgb(0, 0, 0);
+  --left-background-color: rgb(173, 48, 48);
 }
 
 .categories-container {
@@ -536,4 +538,8 @@ nav input{
   background: linear-gradient(#ffffff, #ffffff) padding-box,
               linear-gradient(135deg, #adadad 0%, var(--header-hover-color) 100%) border-box;
   border: 3px solid transparent;
+}
+
+.color-box {
+  background-color: rgb(158, 158, 158);
 }
