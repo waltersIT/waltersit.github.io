@@ -547,5 +547,7 @@ nav input{
   background-color: var(--box-color);
   margin: 80px;
   padding: 20px;
-
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
