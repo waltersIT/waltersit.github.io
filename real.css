@@ -1,7 +1,6 @@
 body {
   overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
+  
   background-color: var(--background-color)
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -383,9 +382,10 @@ nav input{
   float: right;
   width: 860px;
   height: 450px;
+  padding-top: 20px;
   margin-left: 30px;
   margin-right: 30px;
-  background-color: var(--background-color);
+  background-color: auto;
   /**margin-top: 40px; /**why the boxes arent centered w the parent container**/
   justify-content: center;
   align-items: center;
@@ -440,9 +440,6 @@ nav input{
   /**border-bottom: 2px solid rgb(131, 131, 131);**/
   color: var(--header-text-color)
 }
-
-
-
 /* Footer Styles */
 .footer {
   background-color: var(--header-color);
@@ -549,5 +546,17 @@ nav input{
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  overflow: hidden;
+  overflow: scroll;
+}
+.color-box-header {
+  background-color: var(--box-color);
+  padding: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  /**width: fit-content;**/
+  height: fit-content;
+  margin: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

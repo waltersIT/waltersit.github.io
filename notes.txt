@@ -1,3 +1,6 @@
-ok so this is where i talk
+TODO
+- fix header white space
+- fix color scheme
+- pics
 
-we need to do gilman colors
+**after this then we do backend and port forwarding
