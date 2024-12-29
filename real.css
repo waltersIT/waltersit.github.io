@@ -1,6 +1,8 @@
 body {
   overflow-x: hidden;
-  
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove default margin */
   background-color: var(--background-color)
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -389,7 +391,8 @@ nav input{
   /**margin-top: 40px; /**why the boxes arent centered w the parent container**/
   justify-content: center;
   align-items: center;
-  color: var(--left-color)
+  color: var(--left-color);
+  padding-bottom: 50px;
 }
 
 .photo-box-right img {
@@ -559,4 +562,8 @@ nav input{
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.color-box-header h1 {
+  font-size: 50px;
+  
 }
