@@ -1,5 +1,7 @@
 TODO
-- fix header white space
+- fix contact link
+- refactor to clean up code
+- refine content
 - fix color scheme
 - pics
 
