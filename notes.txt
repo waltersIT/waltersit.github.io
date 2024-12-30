@@ -1,5 +1,6 @@
 TODO
 - mobile is fucked
+    - make height fit content and take away padding
 - fix contact link
 - refactor to clean up code
 - refine content
