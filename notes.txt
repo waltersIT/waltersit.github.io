@@ -1,4 +1,5 @@
 TODO
+- mobile is fucked
 - fix contact link
 - refactor to clean up code
 - refine content
