@@ -5,5 +5,6 @@ TODO
 - refine content
 - fix color scheme
 - pics
+- fix font
 
 **after this then we do backend and port forwarding
