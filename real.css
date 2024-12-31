@@ -238,7 +238,7 @@ nav input{
   height: fit-content;
   margin-right: 30px;
   margin-left: 30px;
-  padding: 80px;
+  padding: 0px;
   /**margin-top: 10px; /**why the boxes arent centered w the parent container**/
   background-color: var(--color-box);
   justify-content: center;
@@ -345,6 +345,7 @@ nav input{
   align-items: center;
   color: var(--left-color);
   padding-bottom: 50px;
+  padding-right: 40px;
 }
 
 .photo-box-right img {
@@ -498,7 +499,7 @@ nav input{
 .color-box {
   background-color: var(--box-color);
   margin: 80px;
-  padding: 20px;
+  padding: 0px;
   display: flex;
   flex-wrap: wrap;
   overflow: scroll;
