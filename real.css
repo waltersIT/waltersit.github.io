@@ -339,17 +339,19 @@ nav input{
   display: flex;
   float: right;
   width: 860px;
-  height: 450px;
-  padding-top: 10px;
+  height: 720px;
+  padding-top: 0px;
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right: 60px;
+  margin-bottom: 30px;
   background-color: auto;
   /**margin-top: 40px; /**why the boxes arent centered w the parent container**/
   justify-content: center;
   align-items: center;
   color: var(--left-color);
-  padding-bottom: 40px;
-  padding-right: 40px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .photo-box-right img {
@@ -380,7 +382,7 @@ nav input{
 
 .landing-photo {
   display: flex;
-  height: 400px;
+  height: 600px;
 }
 .landing-photo img {
   width: 100%;
