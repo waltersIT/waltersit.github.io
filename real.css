@@ -514,7 +514,7 @@ nav input{
   overflow: scroll;
   height: fit-content;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 12px;
+  border-radius: 20px;
   border-style: solid;
   border-width: 0px;
 }
@@ -529,7 +529,7 @@ nav input{
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 12px;
+  border-radius: 20px;
   border-style: solid;
   border-width: 0px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
