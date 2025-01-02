@@ -17,6 +17,9 @@ nav{
   z-index: 99;
   width: 100%;
   background: var(--header-color); 
+  border-color: rgb(0, 0, 0);
+  border-width: 1px;
+  border-style: solid;
 }
 nav .wrapper{
   position: relative;
@@ -459,12 +462,12 @@ nav input{
   z-index: 1;
 }
 :root {
-  --header-color: rgb(0, 76, 87);
-  --header-text-color: rgb(255, 255, 255);
+  --header-color: rgb(255, 255, 255);
+  --header-text-color: rgb(0, 0, 0);
   --text-color: rgb(87, 87, 87);
   --header-hover-color: rgb(0, 112, 150);
-  --background-color: rgb(245, 245, 220);
-  --box-color: rgb(113, 158, 207);
+  --background-color: rgb(255, 255, 255);
+  --box-color: rgb(207, 207, 207);
   --left-color: rgb(0, 0, 0);
   --left-background-color: rgb(173, 48, 48);
 }
