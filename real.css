@@ -5,12 +5,12 @@ body {
   margin: 0; /* Remove default margin */
   background-color: var(--background-color)
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 nav{
   position: fixed;
@@ -19,7 +19,7 @@ nav{
   background: var(--header-color); 
   border-color: rgb(0, 0, 0);
   border-width: 1px;
-  border-style: solid;
+  border-bottom-style: solid;
 }
 nav .wrapper{
   position: relative;
@@ -248,7 +248,7 @@ nav input{
   align-items: center;
   text-align: center;
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: var(--left-color);
   flex-direction: column;
 }
@@ -340,7 +340,7 @@ nav input{
   float: right;
   width: 860px;
   height: 450px;
-  padding-top: 40px;
+  padding-top: 10px;
   margin-left: 30px;
   margin-right: 30px;
   background-color: auto;
@@ -348,7 +348,7 @@ nav input{
   justify-content: center;
   align-items: center;
   color: var(--left-color);
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   padding-right: 40px;
 }
 
@@ -470,7 +470,7 @@ nav input{
   --header-color: rgb(255, 255, 255);
   --header-text-color: rgb(0, 0, 0);
   --text-color: rgb(87, 87, 87);
-  --header-hover-color: rgb(0, 112, 150);
+  --header-hover-color: rgb(201, 201, 201);
   --background-color: rgb(255, 255, 255);
   --box-color: rgb(207, 207, 207);
   --left-color: rgb(0, 0, 0);
@@ -511,7 +511,7 @@ nav input{
   padding: 0px;
   display: flex;
   flex-wrap: wrap;
-  overflow: scroll;
+  /*overflow: scroll;*/
   height: fit-content;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -521,7 +521,7 @@ nav input{
 .color-box-header {
   background-color: var(--box-color);
   padding: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   display: flex;
   /**width: fit-content;**/
   height: fit-content;
