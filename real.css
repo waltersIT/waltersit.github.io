@@ -553,7 +553,7 @@ nav input{
   padding-right: 20px;
 }
 .form-group textarea {
-  width: 300px;
+  width: fit-content;
 }
 label {
   margin-bottom: 8px;
