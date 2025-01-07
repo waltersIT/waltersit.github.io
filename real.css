@@ -545,6 +545,9 @@ nav input{
   flex-direction: column;
   margin-bottom: 16px;
 }
+.form-group textarea {
+  width: 500px;
+}
 label {
   margin-bottom: 8px;
 }
