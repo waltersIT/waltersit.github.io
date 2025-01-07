@@ -594,6 +594,10 @@ label {
     height: auto;
   }
 
+  .side-by-side {
+    flex-direction: column;
+  }
+
   .categories-container {
     grid-template-columns: repeat(1, 1fr);
     padding: 10px;
