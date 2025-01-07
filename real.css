@@ -560,7 +560,7 @@ label {
 }
 
 /* Responsive Styles */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .body-text div {
     font-size: 30px;
     padding: 0 15px;
@@ -620,7 +620,7 @@ label {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .body-text div {
     font-size: 25px;
   }
