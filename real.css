@@ -560,7 +560,7 @@ label {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .body-text div {
     font-size: 30px;
     padding: 0 15px;
