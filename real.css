@@ -572,6 +572,7 @@ label {
     margin: 10px 0;
   }
 
+  /*
   .left-box h1 {
     font-size: 35px;
   }
@@ -579,6 +580,7 @@ label {
   .left-box h2 {
     font-size: 18px;
   }
+    */
 
   .color-box {
     height: fit-content; 
@@ -611,6 +613,7 @@ label {
     margin: 10px 0;
   }
 
+  /*
   .footer-container {
     flex-direction: column;
   }
@@ -618,8 +621,9 @@ label {
   .footer-section {
     margin: 10px 0;
   }
+    */
 }
-
+/*
 @media (max-width: 480px) {
   .body-text div {
     font-size: 25px;
@@ -646,4 +650,4 @@ label {
   .form-group textarea {
     width: fit-content;
   }
-}
+}*/
