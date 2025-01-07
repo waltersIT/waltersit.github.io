@@ -550,6 +550,7 @@ nav input{
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
+  padding-right: 20px;
 }
 .form-group textarea {
   width: 300px;
