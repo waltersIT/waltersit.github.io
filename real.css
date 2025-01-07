@@ -285,7 +285,22 @@ nav input{
   justify-content: center;
   align-items: center;
 }
+.parent-box-index {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
 
+  /**float: right;**/
+  width: 40%;
+  /**height: 420px; /**this is still the white space around the boxes**/
+  margin: 20px;/**rand white space under welcome message**/
+  /**background-color: rgb(167, 167, 167);**/
+  border-bottom: #242526;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  padding-top: 50px;
+}
 .parent-box {
   display: flex;
   flex-direction: column;
@@ -355,7 +370,6 @@ nav input{
   padding-right: 0px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
 .photo-box-right img {
   width: 100%; /* Make the image stretch horizontally */
   height: 100%; /* Make the image stretch vertically */
@@ -364,6 +378,30 @@ nav input{
 .photo-box-right h2 {
   padding: 30px;
 }
+.photo-box-right-index {
+  display: flex;
+  float: right;
+  width: 100%;
+  height: 750px;
+  padding-top: 0px;
+  margin-left: 30px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  background-color: rgb(207, 207, 207);
+  /**margin-top: 40px; /**why the boxes arent centered w the parent container**/
+  justify-content: center;
+  align-items: center;
+  color: var(--left-color);
+  padding-bottom: 0px;
+  padding-right: 0px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+  border-radius: 20px;
+}
+.photo-box-right-index h2 {
+  padding: 30px;
+}
+
 .index-spacer {
   padding-bottom: 70px;
 }
@@ -607,6 +645,10 @@ label {
 
   .category-card {
     margin: 10px 0;
+  }
+
+  .parent-box-index {
+    width: 100%;
   }
 
   /*
