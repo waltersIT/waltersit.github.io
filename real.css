@@ -655,7 +655,7 @@ label {
     padding: 0px;
   }
   .footer-container {
-    max-width: max-content;
+    max-width: 5000px;
     margin: 0;
   }
   .footer-section {
