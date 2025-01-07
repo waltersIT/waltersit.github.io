@@ -654,6 +654,13 @@ label {
   .footer {
     padding: 0px;
   }
+  .footer-container {
+    max-width: max-content;
+    margin: 0;
+  }
+  .footer-section {
+    margin: 0px;
+  }
 
   /*
   .footer-container {
