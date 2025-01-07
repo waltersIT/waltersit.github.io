@@ -597,6 +597,9 @@ label {
   .side-by-side {
     flex-direction: column;
   }
+  .form-group textarea {
+    width: fit-content;
+  }
 
   .categories-container {
     grid-template-columns: repeat(1, 1fr);
@@ -635,5 +638,11 @@ label {
 
   .footer-section ul li {
     font-size: 14px;
+  }
+  .side-by-side {
+    flex-direction: column;
+  }
+  .form-group textarea {
+    width: fit-content;
   }
 }
