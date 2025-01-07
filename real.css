@@ -603,6 +603,9 @@ label {
   .form-group textarea {
     width: fit-content;
   }
+  .form-group label {
+    font-size: 20px;
+  }
 
   .categories-container {
     grid-template-columns: repeat(1, 1fr);
