@@ -24,5 +24,9 @@ function sendEmail() {
     subject : document.getElementById("subject").value,
     message : document.getElementById("message").value
   }
-  emailjs.send("service_xs8semp", "template_6x78qyx", parms).then(alert("Email Sent!!"))
+  emailjs.send("service_xs8semp", "template_6x78qyx", parms).then(alert("Email Sent!!"));
+  document.getElementById("name").reset();
+  document.getElementById("email").reset();
+  document.getElementById("subject").reset();
+  document.getElementById("message").reset();
 }
