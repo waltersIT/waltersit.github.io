@@ -3,7 +3,7 @@ body {
   align-items: center; /* Centers vertically */
   height: 100vh; /* Full height of the viewport */
   margin: 0; /* Remove default margin */
-  background-color: var(--background-color)
+  background-color: var(--background-color);
 }
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 *{
@@ -359,7 +359,7 @@ nav input{
   height: 720px;
   padding-top: 0px;
   margin-left: 30px;
-  margin-right: 60px;
+  margin-right: 70px;
   margin-bottom: 30px;
   background-color: auto;
   /**margin-top: 40px; /**why the boxes arent centered w the parent container**/
@@ -649,17 +649,6 @@ label {
 
   .parent-box-index {
     width: 80%;
-  }
-
-  .footer {
-    padding: 0px;
-  }
-  .footer-container {
-    max-width: 5000px;
-    margin: 0;
-  }
-  .footer-section {
-    margin: 0px;
   }
 
   /*
