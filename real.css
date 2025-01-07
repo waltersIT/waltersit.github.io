@@ -604,10 +604,10 @@ label {
     width: fit-content;
   }
   .form-group label {
-    font-size: 22px;
+    font-size: 25px;
   }
   .form-group input {
-    width: fit-content;
+    width: 200px;
   }
 
   .categories-container {
