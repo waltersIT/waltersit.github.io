@@ -623,6 +623,8 @@ label {
   .photo-box-left img, .photo-box-right img {
     width: 100%;
     height: auto;
+    margin-right: 90px;
+
   }
 
   .side-by-side {
