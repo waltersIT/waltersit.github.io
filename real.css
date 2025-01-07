@@ -606,6 +606,9 @@ label {
   .form-group label {
     font-size: 20px;
   }
+  .form-group input {
+    width: fit-content;
+  }
 
   .categories-container {
     grid-template-columns: repeat(1, 1fr);
