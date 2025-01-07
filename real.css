@@ -315,6 +315,8 @@ nav input{
 .side-by-side{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .photo-box-left {
@@ -540,13 +542,17 @@ nav input{
 .color-box-header h1 {
   font-size: 50px;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+}
 .form-group {
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
 }
 .form-group textarea {
-  width: 500px;
+  width: 300px;
 }
 label {
   margin-bottom: 8px;
