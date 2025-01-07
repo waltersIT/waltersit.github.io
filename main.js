@@ -25,6 +25,4 @@ function sendEmail() {
     message : document.getElementById("message").value
   }
   emailjs.send("service_xs8semp", "template_6x78qyx", parms).then(alert("Email Sent!!"))
-  
-
-  }
+}
