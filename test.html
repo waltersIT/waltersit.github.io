@@ -62,21 +62,25 @@
 <div class="color-box">
     <div class="parent-box">
         <div class="left-box">
-            <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-            <script>
-            
-              function sendEmail() {
-                emailjs.send("service_xs8semp", "template_6x78qyx", {
-                  to_name: "Walter",
-                  message: "sup dude!"
-                }).then((response) => {
-                  console.log("SUCCESS", response.status, response.text);
-                }).catch((error) => {
-                  console.error("FAILED", error);
-                });
-              }
-            </script>
-            <button onclick="sendEmail()">Send Email</button>
+          
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Name</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="subject">Name</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div>
+            <label for="message">Name</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+              
+          <button onclick="sendEmail()">Send Email</button>
 
         </div>
     </div>
