@@ -618,12 +618,13 @@ label {
     width: 100%;
     height: auto;
     margin: 10px 0;
+    margin-right: 90px;
+
   }
 
   .photo-box-left img, .photo-box-right img {
     width: 100%;
     height: auto;
-    margin-right: 90px;
 
   }
 
