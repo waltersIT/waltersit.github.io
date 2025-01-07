@@ -591,13 +591,13 @@ label {
     flex-direction: column;
   }
   .form-group textarea {
-    width: fit-content;
+    width: 300px;
   }
   .form-group label {
-    font-size: 25px;
+    font-size: 30px;
   }
   .form-group input {
-    width: 200px;
+    width: 300px;
   }
 
   .categories-container {
