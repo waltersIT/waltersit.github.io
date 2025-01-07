@@ -14,3 +14,17 @@ var circle = L.circle([39.39554, -76.63133], { // Circle center
 
 // Add a popup to the circle
 circle.bindPopup("I am a circle.");
+
+
+function sendEmail() {
+
+  let parms = {
+    name : document.getElementById("name").value,
+    email : document.getElementById("email").value,
+    subject : document.getElementById("subject").value,
+    message : document.getElementById("message").value
+  }
+  emailjs.send("service_xs8semp", "template_6x78qyx", parms).then(alert("Email Sent!!"))
+  
+
+  }
