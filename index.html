@@ -73,21 +73,26 @@
   </div>
   <div class="line" style="margin-top: 80px;"><div></div></div>
 
-  <div class="side-by-side">
-  <div class="parent-box-index">
-    <div class="photo-box-right-index">    
+
+  <div class="parent-box">
+    <div class="photo-box-right" style="flex-direction: column;  width: 80%; background-color: rgb(207, 207, 207); height: 600px; border-radius: 20px;">    
       <h2>Coverage in the highlighted area</h2>
       <div id="map">map</div>
       <script src='main.js'></script>
     </div>
   </div>
 
-  <div class="color-box">
+  <div class="line"><div></div></div>
+
+
+  <div class="color-box" style="width: fit-content; margin-left: 575px;">
     <div class="parent-box">
         <div class="left-box">
 
           <h2>Contact Us</h2>
           
+          <div class="side-by-side">
+          <div class="column" style="padding-right: 100px; margin-bottom: 200px;">
           <div class="form-group">
             <label for="name">Name: </label>
             <input type="text" id="name" name="name" required>
@@ -100,18 +105,21 @@
             <label for="subject">Subject: </label>
             <input type="text" id="subject" name="subject" required>
           </div>
+          </div>
+          <div class="column">
           <div class="form-group">
             <label for="message">Message: </label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <textarea id="message" name="message" rows="4" required style="width: 400px; height: 400px;"></textarea>
           </div>
           <div class="categories-container">
           <div class="category-card" onclick="sendEmail()">Send Email</div>
         </div>
-
+        </div>
+        </div>
         </div>
     </div>
 </div>
-</div>
+
 <!--<div class="right-box">Responsive Dropdown and Mega Menu</div>!-->
 
 <footer class="footer">
