@@ -414,6 +414,16 @@ nav input{
   object-fit: cover;
 }
 
+.header-photo {
+  display: flex;
+  height: 600px;
+}
+.header-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 .landing-text {
   font-size: 30px;
